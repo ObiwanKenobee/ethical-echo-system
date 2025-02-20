@@ -6,7 +6,7 @@ import {
   PenSquare,
   AlertCircle,
   Wallet,
-  Settings,
+  Settings as SettingsIcon,
 } from "lucide-react";
 import {
   Sidebar,
@@ -100,7 +100,7 @@ const DashboardPage = () => {
                 }`}
                 onClick={() => setCurrentPage("settings")}
               >
-                <Settings className="h-5 w-5" />
+                <SettingsIcon className="h-5 w-5" />
                 Settings
               </Button>
             </nav>
